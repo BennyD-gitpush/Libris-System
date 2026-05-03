@@ -8,7 +8,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:postgresql://localhost:5432/libris";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "munchkinz2005";
+    private static final String PASSWORD = "YOUR_PASSWORD_HERE";
 
     public static Connection getConnection() {
         try {
